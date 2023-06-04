@@ -1,5 +1,7 @@
 ﻿namespace LinkList;
 
+//This class demonstrates the use of LinkedListBase class by creating a closed constructor. 
+//You can use this class with the Data Type double, since double can hold integers and floats as well.
 class NumericList : LinkedListBase<int>
 {
     private void InitializeFirst(int item)
