@@ -14,6 +14,7 @@ class LinkList
         bool Contains(int);
         int IndexOf(int);
         void AddAfterAt(int, int);
+        int Length();
     private:
         Node* head;
         Node* tail;

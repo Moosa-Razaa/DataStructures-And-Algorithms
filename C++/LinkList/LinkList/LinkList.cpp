@@ -106,6 +106,21 @@ class LinkList
             PrintSuccess("Addition at certain index.");
         }
 
+        int Length()
+        {
+            int count = 0;
+
+            Node* nodePtr = head;
+
+            while(nodePtr != nullptr)
+            {
+                nodePtr = nodePtr->Next;
+                count++;
+            }
+
+            return count;
+        }
+
     private:
         void AddInitialNode(int number)
         {
